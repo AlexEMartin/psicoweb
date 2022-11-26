@@ -1,6 +1,7 @@
 import { SideBar } from "./sidebar/SideBar"
 import './Home.scss';
 import terapeuta from '../images/terapeuta.png'
+import profile from '../images/profile.jpeg'
 
 
 export const Home = () => {
@@ -38,6 +39,8 @@ export const Home = () => {
                 <li className='flag'>🇵🇾</li>
                 <li className='flag'>🇲🇽</li>
             </ul>
+            <button className='button'>Contacto</button>
+            <img className='pamplona' src={profile} alt="Alex" />
         </div>
     )
 }
