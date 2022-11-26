@@ -1,0 +1,44 @@
+@mixin parrafo {
+    font-size: 12px;
+    width: 50%;
+    text-align: center;
+
+    @media (min-width: 768px) {
+        font-size: 17px;
+    }
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+
+  .home-title {
+    font-size: 40px;
+    background: -webkit-linear-gradient(#07569c, #01e896);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @media (min-width: 768px) {
+        font-size: 72px;
+    }
+  }
+
+  .home-p1 {
+      @include parrafo;
+  }
+
+  .professions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .sticker {
+        width: 15%;
+        padding: 20px;
+    }
+  }
+}
