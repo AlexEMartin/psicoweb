@@ -1,7 +1,10 @@
 @mixin parrafo {
-    font-size: 12px;
+    font-size: 9px;
+    font-weight: 400;
     width: 50%;
+    line-height: 1.8em;
     text-align: center;
+    color: rgba(black, 0.87);
 
     @media (min-width: 768px) {
         font-size: 17px;
@@ -37,8 +40,31 @@
     align-items: center;
 
     .sticker {
-        width: 15%;
+        width: 30%;
+        margin-top: 40px;
         padding: 20px;
     }
+  }
+
+  .home-title2 {
+    @extend .home-title;
+    font-size: 35px;
+    margin-top: 60px;
+  }
+
+  .flag-container {
+    width: 50%;
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    
+    @media (max-width: 768px) {
+      margin-right: 20px;
+    }
+  }
+
+  .flag {
+    font-size: 40px;
+    list-style: none;
   }
 }
