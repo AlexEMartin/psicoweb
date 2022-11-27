@@ -11,7 +11,7 @@
   }
 }
 
-.Home {
+.home {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,10 +57,11 @@
     display: flex;
     gap: 4px;
     flex-wrap: wrap;
+    margin: 50px;
 
-    @media (max-width: 768px) {
-      margin-right: 10px;
-    }
+    // @media (max-width: 768px) {
+    //   margin-right: 10px;
+    // }
   }
 
   .flag {

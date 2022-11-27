@@ -6,13 +6,19 @@
   align-items: center;
   margin: 0 5px;
 
-  a {
+  .linkBar {
     color: white;
     text-decoration: none;
     display: block;
     padding: 10px;
     width: 100%;
     border-radius: 5px;
+    cursor: pointer;
+
+    &.active {
+      font-size: 17px;
+      color: rgb(93, 93, 213);
+    }
 
     .ItemContent {
       display: flex;

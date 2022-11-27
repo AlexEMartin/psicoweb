@@ -16,13 +16,13 @@ export const SideBar = () => {
           id: '2',
           label: 'Psicoterapia Online',
           icon: FcVideoCall,
-          url: '/'
+          url: '/services'
         },
         {
           id: '3',
           label: 'Ebook',
           icon: FcKindle,
-          url: '/'
+          url: '/ebook'
         }
       ]
     

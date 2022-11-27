@@ -4,10 +4,10 @@ import terapeuta from '../images/terapeuta.png'
 import profile from '../images/profile.jpeg'
 
 
-export const Home = () => {
+const Home = () => {
 
     return (
-        <div className='Home'>
+        <div className='home'>
             <SideBar />
             <h1 className='home-title'>Welcome</h1>
             <p className='home-p1'> 
@@ -44,3 +44,5 @@ export const Home = () => {
         </div>
     )
 }
+
+export default Home;
