@@ -12,7 +12,7 @@ interface SideBarMenuProps {
 }
 
 export const SideBarMenu = ({ items, card }: SideBarMenuProps) => {
-  const [isOpen, setIsOpen] = useState<boolean>(true);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const handleClick = () => {
       setIsOpen(!isOpen);
