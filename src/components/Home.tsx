@@ -2,6 +2,7 @@ import { SideBar } from "./sidebar/SideBar"
 import './Home.scss';
 import terapeuta from '../images/terapeuta.png'
 import profile from '../images/profile.jpeg'
+import Footer from "./footer/Footer";
 
 
 const Home = () => {
@@ -41,6 +42,7 @@ const Home = () => {
             </ul>
             <button className='button'>Contacto</button>
             <img className='pamplona' src={profile} alt="Alex" />
+            <Footer/>
         </div>
     )
 }
