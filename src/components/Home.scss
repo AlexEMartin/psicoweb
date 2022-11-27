@@ -88,13 +88,17 @@
   }
 
   .flag-container {
-    width: 70%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 4px;
     flex-wrap: wrap;
     margin: 50px;
+    
+    @media (max-width: 768px) {
+      margin-right: 90px;
+    }
   }
 
   .flag {
