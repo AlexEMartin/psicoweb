@@ -1,5 +1,5 @@
 @mixin parrafo {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 400;
   width: 50%;
   line-height: 1.8em;
@@ -61,6 +61,7 @@
 
   .home-title {
     @include titles;
+    margin-top: 8rem;
   }
 
   .home-p1 {
@@ -87,8 +88,10 @@
   }
 
   .flag-container {
-    width: 50%;
+    width: 70%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 4px;
     flex-wrap: wrap;
     margin: 50px;
