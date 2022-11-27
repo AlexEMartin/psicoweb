@@ -24,7 +24,7 @@ export const SideBarMenu = ({ items, card }: SideBarMenuProps) => {
     >
       <div className="menuButton">
           <button className="hamburgerIcon" onClick={handleClick}>
-              <VscMenu />
+              <VscMenu fontSize="1.2rem" />
           </button>
       </div>
       <SideBarMenuCardView card={card} isOpen={isOpen} />
