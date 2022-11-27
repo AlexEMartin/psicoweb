@@ -15,11 +15,6 @@
     border-radius: 5px;
     cursor: pointer;
 
-    &.active {
-      font-size: 17px;
-      color: rgb(93, 93, 213);
-    }
-
     .ItemContent {
       display: flex;
       flex-direction: row;
