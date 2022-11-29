@@ -2,4 +2,32 @@
 
 .services {
     @include defaultValues;
+    
+    .home-title {
+        @include titles;
+        margin-top: 3rem;
+        font-size: 20px;
+    
+        @media (min-width: 768px) {
+            font-size: 40px;
+        }
+    }
+
+    .home-p1 {
+        @include parrafo;
+    }
+
+    .professions {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+        .sticker {
+          width: 30%;
+          margin-top: 40px;
+          padding: 20px;
+        }
+    }
 }
+
