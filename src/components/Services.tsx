@@ -5,15 +5,18 @@ import Footer from './footer/Footer';
 import './Services.scss';
 import { SideBar } from "./sidebar/SideBar";
 import dx from '../images/dx.png';
+import paciente1 from '../images/paciente-mujer.png';
+import paciente2 from '../images/paciente-hombre.png';
+
 
 const Services = () => {
 
   useEffect(() => {AOS.init({duration: 2000})}, [])
 
   return (
-    <div className="services">
+    <div className='services'>
         <SideBar />
-        <h1 className="home-title" data-aos='fade-left'>Psicoterapia Online</h1>
+        <h1 className='home-title' data-aos='fade-left'>Psicoterapia Online</h1>
         <p className='home-p1' data-aos='fade-left'>
           Mi especialidad es la Psicoterapia Cognitivo Conductual, breve y focalizada.
           Al ser la modalidad Online, atiendo todo tipo de consultas que no impliquen un
@@ -27,8 +30,19 @@ const Services = () => {
           herramientas son idóneas para las características de la consulta, y de no ser 
           así, brindar la mejor orientación posible.
         </p>
-        <div className="professions" data-aos='fade-right'>
-          <img className="sticker" src={dx} alt="diagnose" />
+        <div className='professions' data-aos='fade-right'>
+          <img className='sticker' src={dx} alt="diagnose" />
+        </div>
+        <h1 className='home-title' data-aos='fade-left'>¿Qué necesito?</h1>
+        <ul className='home-p1' data-aos='fade-left'>
+          <li className='list'>Una pc, laptop o móvil</li>
+          <li className='list'>Buena conexión a internet</li>
+          <li className='list'>Un espacio cómodo de privacidad</li>
+          <li className='list'>Una hora de tu tiempo</li>
+        </ul>
+        <div className='professions' data-aos='fade-right'>
+          <img className='sticker' src={paciente1} alt='paciente-mujer' />
+          <img className='sticker' src={paciente2} alt='paciente-hombre' />
         </div>
         <Footer />
     </div>

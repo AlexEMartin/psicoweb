@@ -6,6 +6,7 @@
     .home-title {
         @include titles;
         margin-top: 3rem;
+        margin-bottom: 3rem;
         font-size: 20px;
     
         @media (min-width: 768px) {
@@ -15,6 +16,10 @@
 
     .home-p1 {
         @include parrafo;
+
+        .list {
+            list-style: square;
+        }
     }
 
     .professions {
