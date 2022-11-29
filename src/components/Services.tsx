@@ -38,7 +38,7 @@ const Services = () => {
           <li className='list'>Una pc, laptop o móvil</li>
           <li className='list'>Buena conexión a internet</li>
           <li className='list'>Un espacio cómodo de privacidad</li>
-          <li className='list'>Una hora de tu tiempo</li>
+          <li className='list'>45 min de tu tiempo</li>
         </ul>
         <div className='professions' data-aos='fade-right'>
           <img className='sticker' src={paciente1} alt='paciente-mujer' />

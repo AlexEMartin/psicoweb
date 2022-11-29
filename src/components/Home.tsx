@@ -45,7 +45,7 @@ const Home = () => {
                 <li className='flag'>🇵🇾</li>
                 <li className='flag'>🇲🇽</li>
             </ul>
-            <button className='button' data-aos='fade-up'>Contacto</button>
+            <button className='button' data-aos='fade-up'>Reserva tu cita 🧠</button>
             <img className='pamplona' src={profile} alt="Alex" data-aos='fade-up' />
             <Footer/>
         </div>
