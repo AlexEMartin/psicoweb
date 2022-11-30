@@ -7,6 +7,7 @@ import { SideBar } from "./sidebar/SideBar";
 import dx from '../images/dx.png';
 import paciente1 from '../images/paciente-mujer.png';
 import paciente2 from '../images/paciente-hombre.png';
+import Price from './price/Price';
 
 
 const Services = () => {
@@ -44,6 +45,17 @@ const Services = () => {
           <img className='sticker' src={paciente1} alt='paciente-mujer' />
           <img className='sticker' src={paciente2} alt='paciente-hombre' />
         </div>
+        <button className='button' data-aos='zoom-in'>Reserva tu cita 🧠</button>
+        <h1 className='home-title' data-aos='fade-left'>Consultas frecuentes:</h1>
+        <ul className='home-p1' data-aos='fade-left'>
+          <li className='list'>Ansiedad ⚡️</li>
+          <li className='list'>Vínculos 👩🏻‍🤝‍👩🏾 👩🏼‍🤝‍👨🏻</li>
+          <li className='list'>Regulación emocional 🧠</li>
+          <li className='list'>Habilidades sociales 🙌🏼</li>
+          <li className='list'>Derivaciones médicas 👩🏻‍⚕️</li>
+          <li className='list'>Crisis, trauma, duelo 😖</li>
+        </ul>
+        <Price />
         <Footer />
     </div>
   )

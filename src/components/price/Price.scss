@@ -1,0 +1,13 @@
+@import '../Home.scss';
+
+.price-container {
+    @include defaultValues;
+    margin-bottom: 150px;
+    margin-left: 0px;
+    text-align: center;
+
+
+    .select {
+        padding: 10px;
+    }
+}

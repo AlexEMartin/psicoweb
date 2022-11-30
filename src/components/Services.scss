@@ -29,10 +29,18 @@
         align-items: center;
     
         .sticker {
-          width: 30%;
+          width: 40%;
           margin-top: 40px;
           padding: 20px;
         }
+    }
+
+    .button {
+        @include buttons;
+        width: 240px;
+        margin-top: 100px;
+        padding: 20px;
+        font-size: 16px;
     }
 }
 
