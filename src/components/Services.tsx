@@ -46,7 +46,7 @@ const Services = () => {
           <img className='sticker' src={paciente2} alt='paciente-hombre' />
         </div>
         <button className='button' data-aos='zoom-in'>Reserva tu cita 🧠</button>
-        <h1 className='home-title2' data-aos='fade-left'>Consultas frecuentes:</h1>
+        <h1 className='home-title' data-aos='fade-left'>Consultas frecuentes</h1>
         <ul className='home-p1' data-aos='fade-left'>
           <li className='list'>Ansiedad ⚡️</li>
           <li className='list'>Vínculos 👩🏻‍🤝‍👩🏾 👩🏼‍🤝‍👨🏻</li>

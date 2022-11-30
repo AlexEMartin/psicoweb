@@ -7,20 +7,10 @@
         @include titles;
         margin-top: 3rem;
         margin-bottom: 3rem;
-        font-size: 30px;
+        font-size: 25px;
     
         @media (min-width: 768px) {
             font-size: 40px;
-        }
-    }
-
-    .home-title2 {
-        @include titles;
-        font-size: 30px;
-        margin-top: 100px;
-
-        @media (min-width: 768px) {
-            font-size: 50px;
         }
     }
 

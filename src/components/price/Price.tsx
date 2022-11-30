@@ -13,7 +13,7 @@ const Price = () => {
 
   return (
     <div className='price-container' data-aos='fade-left'>
-      <h1 className='home-title'>Costo por consulta: </h1>
+      <h1 className='home-title'>Costo por consulta</h1>
       <div>
         <select onChange={selectChange} className='select'>
           <option>

@@ -24,7 +24,7 @@ const Home = () => {
             <div className='professions' data-aos='fade-up'>
                 <img className='sticker' src={terapeuta} alt="psicologo" />
             </div>
-            <h1 className='home-title2' data-aos='fade-up'>Sobre mí</h1>
+            <h1 className='home-title' data-aos='fade-up'>Sobre mí</h1>
             <p className='home-p1' data-aos='fade-up'>
                 Licenciado en Psicología (Universidad Nacional de Córdoba, Argentina), especialista en Psicoterapia Cognitivo Conductual 🧠
                 Breve y Focalizada. Trabajo actualmente realizando Psicoterapia Online 💻 
