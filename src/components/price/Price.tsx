@@ -15,9 +15,9 @@ const Price = () => {
     <div className='price-container' data-aos='fade-left'>
       <h1 className='home-title'>Costo por consulta</h1>
       <div>
-        <select onChange={selectChange} className='select'>
-          <option>
-            Choose one
+        <select onChange={selectChange} className='select' defaultValue='Elige moneda'>
+          <option disabled>
+            Elige moneda
           </option>
           <option value="2500 AR$ 🇦🇷">Pesos Argentinos</option>
           <option value="40 U$D 🇺🇸">Dólares</option>
