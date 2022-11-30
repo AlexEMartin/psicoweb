@@ -1,6 +1,6 @@
 import { SideBarMenu } from './SideBarMenu';
 import { SideBarMenuItem, SideBarMenuCard } from '../../types/types';
-import { FcBusinessman, FcVideoCall, FcKindle } from 'react-icons/fc'
+import { FcBusinessman, FcCloseUpMode, FcKindle } from 'react-icons/fc'
 import profileImage from '../../images/alex.jpg'
 
 export const SideBar = () => {
@@ -15,7 +15,7 @@ export const SideBar = () => {
         {
           id: '2',
           label: 'Psicoterapia Online',
-          icon: FcVideoCall,
+          icon: FcCloseUpMode,
           url: '/services'
         },
         {
