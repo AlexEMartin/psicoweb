@@ -23,7 +23,7 @@ const Price = () => {
           <option value="40 U$D 🇺🇸">Dólares</option>
           <option value="40 EUR 🇪🇺">Euros</option>
         </select>
-        {selectedOption && <h2>{selectedOption}</h2>}
+        {selectedOption && <h2 className='input-price'>{selectedOption}</h2>}
       </div>
     </div>
   );
