@@ -45,10 +45,13 @@ const Services = () => {
           <img className='sticker' src={paciente1} alt='paciente-mujer' />
           <img className='sticker' src={paciente2} alt='paciente-hombre' />
         </div>
-        <button className='button' data-aos='zoom-in'>Reserva tu cita 🧠</button>
+        <a href="https://api.whatsapp.com/send?phone=5491123763974&text=Hola!%20Quisiera%20info%20sobre%20psicoterapia%20%F0%9F%92%AA%F0%9F%8F%BC" target="_blank" rel="noreferrer">
+          <button className='button' data-aos='zoom-in'>Reserva tu cita 🧠</button>
+        </a>
         <h1 className='home-title' data-aos='fade-left'>Consultas frecuentes</h1>
         <ul className='home-p1' data-aos='fade-left'>
-          <li className='list'>Ansiedad ⚡️</li>
+          <li className='list'>Ansiedad 🌪️</li>
+          <li className='list'>Estrés ⚡️</li>
           <li className='list'>Vínculos 👩🏻‍🤝‍👩🏾 👩🏼‍🤝‍👨🏻</li>
           <li className='list'>Regulación emocional 🧠</li>
           <li className='list'>Habilidades sociales 🙌🏼</li>

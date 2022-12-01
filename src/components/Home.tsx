@@ -45,7 +45,9 @@ const Home = () => {
                 <li className='flag'>🇵🇾</li>
                 <li className='flag'>🇲🇽</li>
             </ul>
-            <button className='button' data-aos='fade-up'>Reserva tu cita 🧠</button>
+            <a href="https://api.whatsapp.com/send?phone=5491123763974&text=Hola!%20Quisiera%20info%20sobre%20psicoterapia%20%F0%9F%92%AA%F0%9F%8F%BC" target="_blank" rel="noreferrer">
+                <button className='button' data-aos='fade-up'>Reserva tu cita 🧠</button>
+            </a>
             <img className='pamplona' src={profile} alt="Alex" data-aos='fade-up' />
             <Footer/>
         </div>
