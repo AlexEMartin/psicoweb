@@ -4,7 +4,7 @@ import "./Price.scss";
 const Price = () => {
   const [selectedOption, setSelectedOption] = useState<String>();
 
-  // This function is triggered when the select changes
+
   const selectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const value = event.target.value;
     setSelectedOption(value);
