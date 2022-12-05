@@ -4,7 +4,7 @@ import 'aos/dist/aos.css'
 import { SideBar } from "./sidebar/SideBar"
 import './Home.scss';
 import terapeuta from '../images/terapeuta.png'
-import profile from '../images/profile.jpeg'
+import profile from '../images/profile.png'
 import Footer from "./footer/Footer";
 
 
