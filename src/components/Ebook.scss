@@ -1,5 +1,28 @@
-@import './Home.scss';
+@import "./Home.scss";
 
 .ebook-page {
-    @include defaultValues;
+  @include defaultValues;
+
+  .home-title {
+    @include titles;
+  }
+
+  .description {
+      @include parrafo;
+  }
+
+  .ebook-container {
+    background: linear-gradient(to bottom, #e17997 5%, #9817b0 100%);
+    background-color: #9817b0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 50px;
+
+    .ebook {
+      width: 70%;
+    }
+  }
 }
