@@ -60,7 +60,7 @@ const Ebook = () => {
       <PayPalScriptProvider
         options={{
           "client-id":
-            "Adelq-kHTqcZtSWXqvqBZ1j7LJD_OpYmeZm5-kENjoQlta83a4t7z3_ctw75p23W117ZTDL3KmHqNwFz",
+          "Adelq-kHTqcZtSWXqvqBZ1j7LJD_OpYmeZm5-kENjoQlta83a4t7z3_ctw75p23W117ZTDL3KmHqNwFz",
         }}
       >
         <PayPalButtons
