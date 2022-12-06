@@ -34,7 +34,7 @@
   .button {
     @include buttons;
     width: 235px;
-    padding: 9px 38px;
+    padding: 9px 20px;
     margin-top: 50px;
     margin-bottom: -45px;
     opacity: 0.5 !important;
@@ -43,7 +43,7 @@
   .button-disabled {
     @include buttons;
     width: 235px;
-    padding: 9px 38px;
+    padding: 9px 20px;
     margin-top: 50px;
     margin-bottom: -45px;
   }
