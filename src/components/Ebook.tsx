@@ -52,7 +52,6 @@ const Ebook = () => {
       </div>
       <button
         className={classNames(download ? "button" : "button-disabled")}
-        data-aos="fade-down"
         disabled={download}
         onClick={onButtonClick}
       >
@@ -71,7 +70,8 @@ const Ebook = () => {
               purchase_units: [
                 {
                   amount: {
-                    value: "3.99",
+                    currency_code: 'USD',
+                    value: '3.99',
                   },
                 },
               ],
