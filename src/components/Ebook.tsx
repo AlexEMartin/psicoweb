@@ -14,6 +14,20 @@ const Ebook = () => {
     AOS.init({ duration: 2000 });
   }, []);
 
+  const onButtonClick = () => {
+    fetch('Diamante en bruto.pdf').then(response => {
+        response.blob().then(blob => {
+            // Creating new object of PDF file
+            const fileURL = window.URL.createObjectURL(blob);
+            // Setting various property values
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'Diamante en bruto.pdf';
+            alink.click();
+        })
+    })
+}
+
   return (
     <div className="ebook-page">
       <SideBar />
@@ -40,10 +54,9 @@ const Ebook = () => {
         className={classNames(download ? "button" : "button-disabled")}
         data-aos="fade-down"
         disabled={download}
+        onClick={onButtonClick}
       >
-        <a href="../public/diamante.pdf" download="Diamante en bruto">
           Compra y descarga 📚
-        </a>
       </button>
       <PayPalScriptProvider
         options={{

@@ -41,6 +41,7 @@
   .button-disabled {
     @include buttons;
     margin-top: 50px;
+    margin-bottom: -45px;
   }
 
   a {
