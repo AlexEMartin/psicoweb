@@ -14,6 +14,23 @@ const Services = () => {
 
   useEffect(() => {AOS.init({duration: 2000})}, [])
 
+  const requirements:String[] = [
+    'Una pc, laptop o móvil',
+    'Buena conexión a internet',
+    'Un espacio cómodo de privacidad',
+    '45 min de tu tiempo',
+  ];
+
+  const queries:String[] = [
+    'Ansiedad 🌪️',
+    'Estrés ⚡️',
+    'Vínculos 👩🏻‍🤝‍👩🏾 👩🏼‍🤝‍👨🏻',
+    'Regulación emocional 🧠',
+    'Habilidades sociales 🙌🏼',
+    'Derivaciones médicas 👩🏻‍⚕️',
+    'Crisis, trauma, duelo 😖',
+  ];
+
   return (
     <div className='services'>
         <SideBar />
@@ -36,10 +53,9 @@ const Services = () => {
         </div>
         <h1 className='home-title' data-aos='fade-left'>¿Qué necesito?</h1>
         <ul className='home-p1' data-aos='fade-left'>
-          <li className='list'>Una pc, laptop o móvil</li>
-          <li className='list'>Buena conexión a internet</li>
-          <li className='list'>Un espacio cómodo de privacidad</li>
-          <li className='list'>45 min de tu tiempo</li>
+          {
+            requirements.map(item => (<li className='list'>{item}</li>))
+          }
         </ul>
         <div className='professions' data-aos='fade-right'>
           <img className='sticker' src={paciente1} alt='paciente-mujer' />
@@ -50,13 +66,9 @@ const Services = () => {
         </a>
         <h1 className='home-title' data-aos='fade-left'>Consultas frecuentes</h1>
         <ul className='home-p1' data-aos='fade-left'>
-          <li className='list'>Ansiedad 🌪️</li>
-          <li className='list'>Estrés ⚡️</li>
-          <li className='list'>Vínculos 👩🏻‍🤝‍👩🏾 👩🏼‍🤝‍👨🏻</li>
-          <li className='list'>Regulación emocional 🧠</li>
-          <li className='list'>Habilidades sociales 🙌🏼</li>
-          <li className='list'>Derivaciones médicas 👩🏻‍⚕️</li>
-          <li className='list'>Crisis, trauma, duelo 😖</li>
+          {
+            queries.map(query => (<li className='list'>{query}</li>))
+          }
         </ul>
         <Price />
         <Footer />

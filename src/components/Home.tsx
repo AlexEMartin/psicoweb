@@ -12,6 +12,8 @@ const Home = () => {
 
     useEffect(() => {AOS.init({duration: 2000})}, [])
 
+    const flags = ['🇦🇷' , '🇨🇴', '🇨🇱', '🇪🇸', '🇻🇪', '🇺🇸', '🇵🇪', '🇵🇷', '🇵🇾', '🇲🇽'];
+
     return (
         <div className='home'>
             <SideBar />
@@ -34,16 +36,9 @@ const Home = () => {
             </p>
             <span className='home-p1' data-aos='fade-up'>Entre ellas, personas de : </span>
             <ul className='flag-container' data-aos='fade-up'>
-                <li className='flag'>🇦🇷</li>
-                <li className='flag'>🇨🇴</li>
-                <li className='flag'>🇨🇱</li>
-                <li className='flag'>🇪🇸</li>
-                <li className='flag'>🇻🇪</li>
-                <li className='flag'>🇺🇸</li>
-                <li className='flag'>🇵🇪</li>
-                <li className='flag'>🇵🇷</li>
-                <li className='flag'>🇵🇾</li>
-                <li className='flag'>🇲🇽</li>
+                {
+                    flags.map(flag => (<li className='flag'>{flag}</li>))
+                }
             </ul>
             <a href="https://api.whatsapp.com/send?phone=5491123763974&text=Hola!%20Quisiera%20info%20sobre%20psicoterapia%20%F0%9F%92%AA%F0%9F%8F%BC" target="_blank" rel="noreferrer">
                 <button className='button' data-aos='fade-up'>Reserva tu cita 🧠</button>
